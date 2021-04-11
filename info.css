@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,600&display=swap');
+
+
+
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+    color:#093641;
+  font-family: "lato", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 55px;
+}
+
+
+footer {
+  background-color: #286e77;
+}
+
+.total {
+    padding: 20px;
+
+}
+.info {
+    font-family: "lato", sans-serif;
+    border-bottom: 2px solid #093641;
+    color:#093641;
+    font-family: "lato", sans-serif;
+    font-style: normal;
+    width: 50%;
+    float: left;
+    margin: 15px;
+    margin-left: 55px;
+
+
+}
+
+.help {
+    color:#093641;
+    font-family: "lato", sans-serif;
+    margin-left: 50%;
+    margin-left: 1200px;
+    justify-content: space-between;
+  
+}
+
+h2 {
+    font-family: "open-sans" sans-serif;
+    margin: 5px;
+}
+
+h3 {
+    font-family: "open-sans" sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin: 50px;
+    margin-left: 0px;
+   
+}
+
+.help1 {
+    font-family: "lato" sans-serif;
+    font-style: italic;
+    margin-left: 1100px;
+
+}
+

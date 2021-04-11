@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #286e77;
+}
+h1 {
+    color: white;
+    display:flex;
+    text-transform: uppercase;
+    font-family: "lato";
+    justify-content: right;
+    font-size: 6rem;
+    margin-top: 200px;
+    text-align: right;
+    line-height: 150px;
+}
+
+
+body {
+    margin: 0%;
+    background:url(images/IndexImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    position: relative;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+
+}
+
+/* Laptop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+  

@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100&family=Open+Sans&display=swap');
+
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+nav {
+  background-color: #286e77;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: lemonchiffon;
+}
+
+.icons {
+  list-style: none;
+}
+
+.icons li {
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.icons li a {
+  transition: all 0.3s ease 0s;
+}
+
+.icons li a:hover {
+  color: lemonchiffon;
+}
+.productimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product {
+    display: grid;
+    grid-template-columns: auto (15, 1fr);
+    grid-row: auto;
+    margin-top: 50px;
+
+}
+.product1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.product2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.product3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.product4 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.product5 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.product6 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    font-family: 'Open Sans', sans-serif;
+    font-style:normal;
+    text-transform: uppercase;
+    
+  
+}
+
+
+.product7 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: "lato", sans-serif;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+h5 {
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.product-info {
+    display: grid;
+    grid-template-columns: auto (15, 1fr);
+    grid-row: auto;
+    text-decoration: underline;
+    padding-top: 30px;
+
+}
+
+.info1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+
+.info2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.info3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    
+}
+
+.cta-small1 {
+  background-color: #093641;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 2px;
+  padding: 8px 10px;
+  font-size: 0.8em;
+  grid-column: 2;
+  grid-row: 2;
+  min-width: 51.2px;
+  text-align: center;
+  margin-top: 5px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  width:50%;
+  height: 15px;
+
+}
+
+.cta-small2 {
+  background-color: #093641;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 2px;
+  padding: 8px 10px;
+  font-size: 0.8em;
+  grid-column: 2;
+  grid-row: 2;
+  min-width: 51.2px;
+  text-align: center;
+  margin-top: 5px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  width:50%;
+  height: 15px;
+}
+
+.help {
+  bottom: 20px;
+  right: 0;
+  margin-right: 30px;
+  position: fixed;
+}

@@ -23,6 +23,7 @@ button {
 .logo {
   cursor: pointer;
   margin-left: 20px;
+
 }
 
 nav {
@@ -70,10 +71,10 @@ nav {
 }
 
 .index {
-  background-image: url("IndexImage.png");
-  background-repeat: none;
+  background-image: url("images/IndexImage.png");
+  background-repeat: no-repeat;
   width: 100%;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 h1 {
