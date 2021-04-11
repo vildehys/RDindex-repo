@@ -227,7 +227,7 @@ h6 {
 
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1124px) {
-}
+
 
 .help {
   bottom: 20px;
@@ -236,3 +236,4 @@ h6 {
   position: fixed;
   height: 30px;
   }
+}
