@@ -38,18 +38,45 @@ body {
     position: relative;
 }
 
+footer {
+  color: #286e77;
+}
+
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+
+h1 {
+  font-size: 3rem;
+  line-height: 75px;
+  margin-top: 200px;
 }
 
+.help {
+  bottom: 20px;
+  right: 0;
+  margin-right: 10px;
+  position: fixed;
+  height: 25px;
+  }
+  
+}
 
 /* Tablet */
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1124px) {
 
+h1 {
+  font-size: 4rem;
+  line-height: 75px;
+  margin-top: 200px;
+}
+.help {
+  bottom: 20px;
+  right: 0;
+  margin-right: 10px;
+  position: fixed;
+  height: 30px;
+  }
 }
 
-/* Laptop */
-@media (min-width: 1025px) and (max-width: 1280px) {
 
-}
   

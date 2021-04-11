@@ -76,3 +76,27 @@ h3 {
 
 }
 
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .help {
+    bottom: 20px;
+    right: 0;
+    margin-right: 10px;
+    position: fixed;
+    height: 25px;
+    }
+    
+  }
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1124px) {
+
+  .help {
+  bottom: 20px;
+  right: 0;
+  margin-right: 10px;
+  position: fixed;
+  height: 30px;
+  }
+}

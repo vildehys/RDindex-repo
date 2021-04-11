@@ -110,6 +110,7 @@ h4 {
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
+    text-decoration: none;
     padding: 10px 80px;
     border-radius: 2px;
     padding: 8px 10px;
@@ -131,6 +132,7 @@ h4 {
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
+    text-decoration: none;
     padding: 10px 80px;
     border-radius: 2px;
     padding: 8px 10px;
@@ -151,6 +153,7 @@ h4 {
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
+    text-decoration: none;
     padding: 10px 80px;
     border-radius: 2px;
     padding: 8px 10px;
@@ -184,25 +187,24 @@ h4 {
 
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+
+    .help {
+        bottom: 20px;
+        right: 0;
+        margin-right: 10px;
+        position: fixed;
+        height: 25px;
+        }
 }
-
-.checkout {
-
 
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1024px) {
-
+    .help {
+        bottom: 20px;
+        right: 0;
+        margin-right: 10px;
+        position: fixed;
+        height: 30px;
+        }
 }
 
-/* Laptop */
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-  .help {
-    bottom: 20px;
-    right: 0;
-    margin-right: 10px;
-    position: fixed;
-    height: 30px;
-   
-  }
-}

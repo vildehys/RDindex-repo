@@ -10,11 +10,16 @@ img {
 }
 
 .about {
-  background-image: url("images/about2.jpg");
+  margin: 0%;
+  background:url(images/about2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100vh;
+  background-position-x: center;
+  background-position-y: bottom;
   position: absolute;
+  height: 150vh;
+
+  
 }
 
 h1 {
@@ -56,16 +61,57 @@ p {
 
 /* Mobile */
 @media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    line-height: 1.5em;
+    width: 60%;
+  }
+
+  .help {
+    bottom: 20px;
+    right: 0;
+    margin-right: 10px;
+    position: fixed;
+    height: 25px;
+    }
 }
 
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .help {
+      bottom: 20px;
+      right: 0;
+      margin-right: 10px;
+      position: fixed;
+      height: 25px;
+      }
+}
 
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
 
+  p {
+    line-height: 1.7em;
+    width: 60%;
+  }
+  
+  .help {
+    bottom: 20px;
+    right: 0;
+    margin-right: 10px;
+    position: fixed;
+    height: 30px;
+    }
 }
 
-/* Laptop */
-@media (min-width: 1025px) and (max-width: 1280px) {
+
 
 
 
