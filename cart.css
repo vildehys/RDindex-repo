@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-img {
-  max-width: 100%;
-}
 
 * {
   margin: 0;
@@ -208,3 +205,4 @@ h4 {
     height: 30px;
    
   }
+}
